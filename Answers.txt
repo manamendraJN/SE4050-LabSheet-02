@@ -1,0 +1,7 @@
+1. What happens when the number of hidden nodes increase?
+
+When the number of hidden nodes increases from very few (1–2) to a moderate range (3–5), the model’s accuracy improves significantly because it gains more capacity to capture complex patterns in the dataset. However, when the hidden nodes are increased further (20–50), the accuracy does not improve noticeably and fluctuates around the same level, showing diminishing returns.
+
+2. Can you explain the pattern of the accuracy when the hidden nodes increase?
+
+With too few hidden nodes, the network underfits because it cannot represent the decision boundary well. As the hidden nodes reach an optimal range, the network fits the data better, leading to a sharp rise in accuracy. Beyond that point, adding more hidden nodes does not lead to meaningful accuracy improvements. Instead, it causes small fluctuations and increases the risk of overfitting in more complex datasets, although here the dataset is simple, so the accuracy remains stable around ~90%.
